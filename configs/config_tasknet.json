@@ -1,0 +1,21 @@
+{
+    "mpiigaze_file": "data/MPIIGaze.h5",
+    "gazecapture_file": "data/GazeCapture.h5",
+
+    "save_path": "trained_models",
+
+    "batch_size": 32,
+    "num_data_loaders": 4,
+    "print_freq_train": 100,
+    "print_freq_test": 50,
+    "save_interval": 50,
+    "num_training_steps": 200,
+    "l2_reg": 1e-4,
+    "input_img_w": 256,
+    "input_img_h": 64,
+    "base_learning_rate": 0.00005,
+    "decay_steps": 34480,
+    "decay": 0.8
+
+}
+

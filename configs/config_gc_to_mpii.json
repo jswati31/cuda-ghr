@@ -1,0 +1,44 @@
+{
+    "mpiigaze_file": "data/MPIIGaze.h5",
+    "gazecapture_file": "data/GazeCapture.h5",
+    "gazenet_savepath": "trained_models/195000.pth.tar",
+    "save_path": "logs/cudaghr_gc_to_mpii/",
+    "batch_size": 10,
+    "num_data_loaders": 4,
+    "use_tensorboard": true,
+    "train_mode": true,
+    "store_task_evaluation_dataset": true,
+
+    "print_freq_train": 50,
+    "print_freq_test": 100,
+    "save_interval": 10000,
+    "num_training_steps": 200000,
+    "save_freq_images": 100,
+    "num_samples_generation": 100000,
+
+    "coeff_l1_loss": 200.0,
+    "coeff_gaze_loss": 10.0,
+    "coeff_latent_discriminator_loss": 5.0,
+    "coeff_perc_loss": 10.0,
+
+    "l2_reg": 0.0001,
+    "base_learning_rate": 0.00005,
+    "decay_steps": 34480,
+    "decay": 0.8,
+
+    "load_step": 0,
+
+    "input_img_w": 256,
+    "input_img_h": 64,
+    "z_dim_app": 16,
+    "z_dim_gaze": 8,
+    "z_dim_head": 16,
+    "encoder_norm": "instance",
+    "encoder_act": "leaky_relu",
+    "num_layer_mlp_enc": 4,
+    "disc_num_layer": 4,
+    "gaze_input_dim": 2,
+    "head_input_dim": 2,
+    "num_blocks": 4
+
+}
