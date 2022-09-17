@@ -73,5 +73,5 @@ You can download pretrained models here:
 - [ResNet-50 task model](https://drive.google.com/file/d/1iS1faPkrIe8W1LiAcpvotYPhXa5RGmI-/view?usp=sharing)
 
 ## Acknowledgement
-The code is adapted from [FAZE](https://github.com/NVlabs/few_shot_gaze) and [ST-ED](https://github.com/zhengyuf/STED-gaze). 
+The code is adapted from [FAZE](https://github.com/NVlabs/few_shot_gaze) and [STED-Gaze](https://github.com/zhengyuf/STED-gaze). 
 We thank authors for their awesome work!!
