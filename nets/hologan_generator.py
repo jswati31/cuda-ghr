@@ -252,8 +252,6 @@ class HologanGenerator(nn.Module):
             z_size=latent_dim,
             conv_non_linear=nl_f)
 
-        # NOTE: rotation (done in call)
-
         # post-rotation function
         self.map_3d_post = nn.Sequential(
             nn.Conv3d(n_features_in_first_layer // 2, n_features_in_first_layer // 4, 3, padding="same"),
@@ -342,8 +340,6 @@ class HologanGenerator(nn.Module):
 
     def stn(self, x, theta):
         # theta must be (Bs, 3, 4) = [R|t]
-        # theta = theta.view(-1, 2, 3)
-
         grid = F.affine_grid(theta, x.size())
         out = F.grid_sample(x, grid, padding_mode='zeros')
         return out
@@ -373,7 +369,6 @@ class HologanGenerator(nn.Module):
         # 'rendering' layers
         x = self.map_3d_post(x)
 
-        # ...including the reshape
         x_s = list(x.shape)
         if x_s[0] is None:
             x_s[0] = -1

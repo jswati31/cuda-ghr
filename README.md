@@ -1,7 +1,9 @@
 
 # CUDA-GHR: Controllable Unsupervised Domain Adaptation for Gaze and Head Redirection
 
-This repository is the official implementation of [CUDA-GHR: Controllable Unsupervised Domain Adaptation for Gaze and Head Redirection](). 
+* To be presented at WACV2023!
+* Authors: [Swati Jindal](https://jswati31.github.io/), [Xin Eric Wang](https://eric-xw.github.io/)
+* [Link to paper](https://arxiv.org/abs/2106.10852)
 
 ## Requirements
 We used Python 3.7.10 and torch 1.18.1 to test our experiments. We ran our codebase on Ubuntu 20.04.
@@ -64,13 +66,12 @@ python eval_cudaghr.py --model_path <path to model> --config_json <path to confi
 Add '--columbia' option to test on Columbia dataset.
 
 ## Pre-trained Models
-
 You can download pretrained models here:
 
 - [GazeCapture &rarr; MPIIGaze](https://drive.google.com/file/d/1XeJ16XHghjnr5O4V34AUEE6eoaKODsZK/view?usp=sharing)
 - [GazeCapture &rarr; Columbia](https://drive.google.com/file/d/1AIWplDl0790YG9jGK0vgp82ypLwM_XLe/view?usp=sharing)
 - [ResNet-50 task model](https://drive.google.com/file/d/1iS1faPkrIe8W1LiAcpvotYPhXa5RGmI-/view?usp=sharing)
 
-## Contributing
-
-For any inquiries, please contact us.
+## Acknowledgement
+The code is adapted from [FAZE](https://github.com/NVlabs/few_shot_gaze) and [ST-ED](https://github.com/zhengyuf/STED-gaze). 
+We thank authors for their awesome work!!
