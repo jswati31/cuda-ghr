@@ -1,7 +1,7 @@
 
 # CUDA-GHR: Controllable Unsupervised Domain Adaptation for Gaze and Head Redirection
 
-* To be presented at WACV2023!
+* Published at WACV2023!
 * Authors: [Swati Jindal](https://jswati31.github.io/), [Xin Eric Wang](https://eric-xw.github.io/)
 * [Link to paper](https://arxiv.org/abs/2106.10852)
 
