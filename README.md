@@ -68,9 +68,9 @@ Add '--columbia' option to test on Columbia dataset.
 ## Pre-trained Models
 You can download pretrained models here:
 
-- [GazeCapture &rarr; MPIIGaze](https://drive.google.com/file/d/1XeJ16XHghjnr5O4V34AUEE6eoaKODsZK/view?usp=sharing)
-- [GazeCapture &rarr; Columbia](https://drive.google.com/file/d/1AIWplDl0790YG9jGK0vgp82ypLwM_XLe/view?usp=sharing)
-- [ResNet-50 task model](https://drive.google.com/file/d/1iS1faPkrIe8W1LiAcpvotYPhXa5RGmI-/view?usp=sharing)
+- [GazeCapture &rarr; MPIIGaze](https://drive.google.com/file/d/1GHfoH8XUK1B4bt_LzvPOHZfurF-_6J0R/view?usp=sharing)
+- [GazeCapture &rarr; Columbia](https://drive.google.com/file/d/1LPVokJNcJn0WzXaKM56ALnXRUDIt972z/view?usp=sharing)
+- [ResNet-50 task model](https://drive.google.com/file/d/18jahxVGxmlBZoA195b8D0tXZkkP9fqan/view?usp=sharing)
 
 ## Acknowledgement
 The code is adapted from [FAZE](https://github.com/NVlabs/few_shot_gaze) and [STED-Gaze](https://github.com/zhengyuf/STED-gaze). 
